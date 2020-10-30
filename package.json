@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "license": "MIT",
+  "main": "wait.js",
+  "typings": "wait.d.ts",
+  "name": "wait",
+  "author": "ealush",
+  "module": "wait.js",
+  "bin": {
+    "wait": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ealush/wait.git"
+  }
+}
