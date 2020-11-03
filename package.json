@@ -1,16 +1,25 @@
 {
-  "version": "0.2.0",
+  "version": "0.4.2",
   "license": "MIT",
-  "main": "wait.js",
+  "source": "wait.js",
+  "main": "dist/wait.js",
+  "module": "dist/wait.module.js",
+  "unpkg": "dist/wait.umd.js",
   "typings": "wait.d.ts",
   "name": "wait",
   "author": "ealush",
-  "module": "wait.js",
   "bin": {
     "wait": "./cli.js"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ealush/wait.git"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.4"
   }
 }
