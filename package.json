@@ -6,6 +6,7 @@
   "module": "dist/wait.module.js",
   "unpkg": "dist/wait.umd.js",
   "typings": "wait.d.ts",
+  "type": "module",
   "name": "wait",
   "author": "ealush",
   "bin": {
@@ -13,7 +14,8 @@
   },
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "test": "./test.js"
   },
   "repository": {
     "type": "git",
