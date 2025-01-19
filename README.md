@@ -3,6 +3,14 @@
 Wait is a promise wrapped setTimeout. That's it.
 Use it for a nicer delay interface.
 
+Instll this package using NPM.
+
+```
+npm i wait
+```
+
+* * *
+
 ```js
 import wait from 'wait';
 
